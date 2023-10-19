@@ -1,15 +1,9 @@
-'use client'
+"use client";
 
-import React, { useLayoutEffect } from 'react'
-import styles from './style.module.scss'
-import transition from '@/components/Transition'
+import React from "react";
+import styles from "./style.module.scss";
 function page() {
-  
-  return (
-		<main  className={styles.main}>
-			About
-		</main>
-	);
+  return <main className={styles.main}>About</main>;
 }
 
 export default page;
